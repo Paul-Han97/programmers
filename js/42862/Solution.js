@@ -8,12 +8,16 @@
 function solution(n, lost, reserve) {
   let answer = n - lost.length;
 
-  lost.sort();
-  reserve.sort();
+  function asc(a, b) {
+    return a - b;
+  }
+  
+  lost.sort(asc);
+  reserve.sort(asc);
 
-  for(let i = 0; i < lost.length; i++) {
-    for(let j = 0; j < reserve.length; j++) {
-      if(lost[i] === reserve[j]) {
+  for (let i = 0; i < lost.length; i++) {
+    for (let j = 0; j < reserve.length; j++) {
+      if (lost[i] === reserve[j]) {
         answer++;
         lost[i] = -1;
         reserve[j] = -1;
@@ -22,10 +26,10 @@ function solution(n, lost, reserve) {
     }
   }
 
-  for(let i = 0; i < lost.length; i++) {
-    for(let j = 0; j < reserve.length; j++) {
+  for (let i = 0; i < lost.length; i++) {
+    for (let j = 0; j < reserve.length; j++) {
       let allowsRental = Math.abs(lost[i] - reserve[j]) === 1;
-      if(allowsRental) {
+      if (allowsRental) {
         answer++;
         lost[i] = -1;
         reserve[j] = -1;
