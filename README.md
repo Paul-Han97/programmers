@@ -9,3 +9,4 @@
 * [크레인 인형뽑기 게임.md](https://github.com/Paul-Han97/programmers/blob/main/js/64061/%ED%81%AC%EB%A0%88%EC%9D%B8%20%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%20%EA%B2%8C%EC%9E%84.md)
 * [두 개 뽑아서 더하기.md](https://github.com/Paul-Han97/programmers/blob/main/js/68644/%EB%91%90%20%EA%B0%9C%20%EB%BD%91%EC%95%84%EC%84%9C%20%EB%8D%94%ED%95%98%EA%B8%B0.md)
 * [내적.md](https://github.com/Paul-Han97/programmers/blob/main/js/70128/%EB%82%B4%EC%A0%81.md)
+* [서버 증설 횟수.md](https://github.com/Paul-Han97/programmers/blob/main/js/389479/%EC%84%9C%EB%B2%84%20%EC%A6%9D%EC%84%A4%20%ED%9A%9F%EC%88%98.md)
